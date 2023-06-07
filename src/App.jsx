@@ -1,7 +1,18 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+import Header from './components/Header';
+
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello World</h1>
+      <ToastContainer theme='dark' />
+      <Header />
+      <BrowserRouter>
+        <Routes>
+          
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
