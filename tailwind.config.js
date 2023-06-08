@@ -5,6 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      pop: ['Poppins', 'sans-serif'],
+      ubun: ['Ubuntu', 'sans-serif']
+    },
     extend: {
       colors: {
         MainRed: '#EF1D41',
